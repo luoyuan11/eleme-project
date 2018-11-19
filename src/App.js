@@ -1,27 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component ,Fragment} from 'react';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+
+import store from './store'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home/Home';
+import Discover from './pages/Discover/Discover';
+import Order from './pages/Order/Order';
+import Mine from './pages/Mine/Mine';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      // <Provider store={store}>
+        <Router>
+          <Fragment>
+            <Route path="/pages/Home/Home" exact component={Home} />
+            <Route path="/pages/Discover/Discover"  component={Discover} />
+            <Route path="/pages/Order/Order"  component={Order} />
+            <Route path="/pages/Mine/Mine"  component={Mine} />
+            <Footer />
+          </Fragment>
+        </Router>
+      // </Provider>
+    )
   }
 }
 
