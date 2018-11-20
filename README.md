@@ -1,44 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+######计划项目：饿了么
 
-## Available Scripts
+小组成员：罗元，吴志伟，林慧鑫，宁兴凤
 
-In the project directory, you can run:
+##项目总计划
 
-### `npm start`
+1.完成首页，发现页，订单页，我的（个人中心）
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.商品详情页的展示，定位功能的实现
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+3.登录注册（基本中的基本）
 
-### `npm test`
+4.实现数据上划加载，按需加载
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5.暂定。。。后续会逐渐添加
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###成员任务
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+*罗元：我的页面，后台数据库的链接，登录，注册页面等。。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*吴志伟：订单页面，商品详情页 页面跳转支付。。。
 
-### `npm run eject`
+*林慧鑫：发现页面，商品展示页 。。。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*宁兴凤：首页 轮播 定位 公用组件的抽取等。。。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+###待续计划
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+每个小组成员目前的任务是完成整个项目的基础，后续会相互补充相互
+帮助.再完成各自任务的同时可以帮助其他成员完善对应的功能及补充
+可增的功能
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##今日完成情况
+成员  |  完成详情  |      |
+-----------|-------|----------
+宁兴凤|  首页启动  |        |
+吴志伟|  订单启动  |        |
+林慧鑫|  发现启动  |        |
+罗元  |  个人启动  |        |
+
+因为个人原因导致项目的正式启动慢，在此小小的抱歉下，我相信大家的齐心协力会
+把我们的项目完成得好
